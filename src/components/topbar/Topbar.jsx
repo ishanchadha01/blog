@@ -12,18 +12,18 @@ export default function Topbar() {
             </Link>
           </li>
           <li className="topListItem">
-            <Link className="link" to="/">
+            <Link className="link" to="/about">
+              ABOUT
+            </Link>
+          </li>
+          <li className="topListItem">
+            <Link className="link" to="/browse">
               BROWSE
             </Link>
           </li>
           <li className="topListItem">
-            <Link className="link" to="/">
-              HOME
-            </Link>
-          </li>
-          <li className="topListItem">
-            <Link className="link" to="/">
-              HOME
+            <Link className="link" to="/contact">
+              CONTACT
             </Link>
           </li>
         </ul>

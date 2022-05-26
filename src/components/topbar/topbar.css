@@ -1,18 +1,39 @@
 .top {
     width: 100%;
     height: 50%;
-    background-color: white;
     position: sticky;
     top: 0;
     display: flex;
-    font-family: "Josefin Sans", sans-serif;
+    justify-content: center;
+    font-family: "verdana", sans-serif;
+    font-weight: bolder;
+    background-color: black;
 }
   
 .topList {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     list-style: none;
-    margin-left: 5%;
+}
+
+.top a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.top a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.top a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.top a:active {
+    text-decoration: none;
+    color: white;
 }
   
 .topListItem {
@@ -20,24 +41,5 @@
     font-weight: 300;
     cursor: pointer;
     padding: 10%;
-}
-  
-.topListItem:hover{
-    color: gray;
-}
-  
-.topImg {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-right: 15px;
-    cursor: pointer;
-}
-  
-.topSearchIcon {
-    font-size: 18px;
-    color: #666;
-    cursor: pointer;
 }
   
