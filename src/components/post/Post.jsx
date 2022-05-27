@@ -24,7 +24,7 @@ export default function Post(props) {
       />
       <div className="postInfo">
         <span className="postTitle">
-          <Link to={"/browse/"+ props.category + "/" + props.id} className="link">
+          <Link to={"/post:" + props.id} className="link">
             {props.title}
           </Link>
         </span>
