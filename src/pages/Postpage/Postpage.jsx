@@ -17,7 +17,6 @@ export default function Postpage(props) {
         const data = snap.data();
         if (data.id) {
           setPostData(data);
-          console.log(data);
         }
         return data;
       })
@@ -29,7 +28,18 @@ export default function Postpage(props) {
 
   if (postData) {
     return (
-      <div>{postData.content[0]}</div>
+      <>
+        <div className="title">{postData.title}</div>
+        <div>
+          {Object.entries(postData.content).map(([field, value]) => {
+            if (field == "image") {
+              return <img key={value} src={"../../assets" + value}></img>;
+            } else if (field == "text") {
+              return <p key={value}>{value}</p>
+            }
+          })}
+        </div>
+      </>
     );
   }
   return (
