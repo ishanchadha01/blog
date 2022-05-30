@@ -24,7 +24,8 @@ export default function Posts(props) {
 
   return (
     <div className="posts">
-      <div className="item">
+      <h1>Posts</h1>
+      <div className="items">
         {
           posts.map((post) => 
             <Post key={post.id} img={"./assets/" + post.coverimg} id={post.id} title={post.title} category={post.category} time={post.time} content={post.content} />

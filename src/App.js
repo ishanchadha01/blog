@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Topbar from './components/topbar/Topbar';
 import Home from "./pages/home/Home";
-import About from "./pages/about/About";
+import Portfolio from "./pages/portfolio/Portfolio";
 import Browse from "./pages/browse/Browse";
 import Postpage from "./pages/postpage/Postpage"
 import Contact from "./pages/contact/Contact";
@@ -16,7 +16,7 @@ function App() {
         <Topbar/>
         <Routes>
           <Route exact path="/" element={<Home />}/>
-          <Route path="/about" element={<About/>}/>
+          <Route path="/portfolio" element={<Portfolio/>}/>
           <Route path="/browse" element={<Browse/>}/>
           <Route path="/category:catname" element={<Category/>}/>
           <Route path="/post:postId" element={<Postpage/>}/>

@@ -1,17 +1,14 @@
-.item {
-  width: 25%;
+.items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  justify-items: center;
 }
 
-.posts{
-    /* flex: 9; */
-    display: flex;
-    flex-wrap: wrap;
-    /* justify-content: center;
-    flex-direction: row; */
+h1 {
+  color: white;
 }
 
-/* .posts > div {
-  flex: 25%;
-  box-shadow: 0 0 0 1px black;
-  margin-bottom: 10px;
-} */
+.posts {
+  padding-top: 3%;
+}

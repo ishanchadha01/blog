@@ -1,4 +1,31 @@
-.home {
+.intro img {
+  padding: 2%;
+  max-width: 20%;
   display: flex;
-  width: 100%;
+  justify-content: center;
+}
+
+.intro p {
+  color: white;
+  text-align: left;
+}
+
+.intro h1 {
+  color: white;
+  text-align: left;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutme {
+  max-width: 30%;
+}
+
+.posts {
+  margin-left: auto;
+  margin-right: auto;
 }

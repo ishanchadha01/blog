@@ -1,0 +1,35 @@
+.timeline li {
+  list-style: none;
+  text-align: left;
+  color: white;
+  border-style:solid;
+  border-color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  background: #3a3b4c;
+}
+
+.timeline a:link {
+  text-decoration: none;
+  color: white;
+}
+
+.timeline a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.timeline a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: indigo;
+}
+
+.timeline a:active {
+  text-decoration: none;
+  color: white;
+}
