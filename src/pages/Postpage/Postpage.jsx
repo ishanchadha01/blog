@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import React, {useEffect, useState} from "react";
 import { doc, getDoc, collection, query, onSnapshot } from "firebase/firestore";
 import db from "../../firebase-config";
+import "./postpage.css";
 
 export default function Postpage(props) {   
   const location = useLocation();
@@ -32,9 +33,9 @@ export default function Postpage(props) {
         <div className="title">{postData.title}</div>
         <div>
           {Object.entries(postData.content).map(([field, value]) => {
-            if (field == "image") {
+            if (field.includes("image")) {
               return <img key={value} src={"../../assets" + value}></img>;
-            } else if (field == "text") {
+            } else if (field.includes("text")) {
               return <p key={value}>{value}</p>
             }
           })}

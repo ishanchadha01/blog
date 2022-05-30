@@ -24,14 +24,13 @@ export default function Posts(props) {
 
   return (
     <div className="posts">
-      <ul>
+      <div className="item">
         {
           posts.map((post) => 
-            <Post id={post.id} title={post.title} category={post.category} time={post.time} content={post.content} />
+            <Post key={post.id} img={"./assets/" + post.coverimg} id={post.id} title={post.title} category={post.category} time={post.time} content={post.content} />
           )
         }
-      </ul>
-      <Post title="How does Google Maps plan so fast and so well?" img="https://images.pexels.com/photos/6685428/pexels-photo-6685428.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" description="Something" />
+      </div>
     </div>
   );
 }

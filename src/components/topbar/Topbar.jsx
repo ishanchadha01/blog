@@ -8,22 +8,22 @@ export default function Topbar() {
         <ul className="topList">
           <li className="topListItem">
             <Link className="link" to="/">
-              HOME
+              <p>HOME</p>
             </Link>
           </li>
           <li className="topListItem">
             <Link className="link" to="/about">
-              ABOUT
+              <p>ABOUT</p>
             </Link>
           </li>
           <li className="topListItem">
             <Link className="link" to="/browse">
-              BROWSE
+              <p>BROWSE</p>
             </Link>
           </li>
           <li className="topListItem">
             <Link className="link" to="/contact">
-              CONTACT
+              <p>CONTACT</p>
             </Link>
           </li>
         </ul>
