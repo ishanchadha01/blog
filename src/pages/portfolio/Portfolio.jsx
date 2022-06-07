@@ -68,12 +68,47 @@ export default function Portfolio() {
 						</li>
 					</div>
 
+					<div className={exp ? "show" : "hide"}>
+						<li>
+							<h3>Robotics Engineering Intern at Relativity Space</h3>
+							<p>
+								Aug 2022 - Dec 2022
+								<br></br><br></br>
+								Coming Soon!
+							</p>    
+						</li>
+					</div>
+
+					<div className={exp ? "show" : "hide"}>
+						<li>
+							<h3>Software Engineering/Data Science Intern at Capital One</h3>
+							<p>
+								Jun 2022 - Aug 2022
+								<br></br><br></br>
+								Coming Soon!
+							</p>    
+						</li>
+					</div>
+
 					<div className={proj ? "show" : "hide"}>
 						<li>
 							<h3>Field-Aided RRT*</h3>
 							<p>
-								TODO
-							</p>    
+								I created a novel, fast path planning algorithm that enhances the rapidly-exporing random 
+								tree algorithm, or RRT, in order to navigate dynamic, partially observable environments. 
+								This new algorithm, FA-RRT*, outperformed RRT-X, the previous standard for dynamic 
+								path planning which incorporates elements of graph algorithms A* and D* Lite, in heavily 
+								clustered environments. The algorithms were comparable in performance for sparse 
+								environments.
+							</p>
+							<a href="https://github.com/ishanchadha01/Field-Aided-RRT">
+								<center>
+								<figure>
+									<img src="/assets/rrtx.png"></img>
+									<figcaption>Link to Github</figcaption>
+								</figure>
+								</center>
+							</a>
 						</li>
 					</div>
 
@@ -143,7 +178,18 @@ export default function Portfolio() {
 							<p>
 								Jul 2021 - May 2022
 								<br></br><br></br>
-								TODO
+								I created a pipeline that allows for data to be trained, tested, and visualized through 
+								for the CopyCat sign language recognition and verification system. A video or group of 
+								videos of users signing in American Sign Language is utilized as input, and predicted 
+								phrases along with model statistics are output.
+								<br></br>
+								Since our previous models trained on a separate group of users perform poorly 
+								on a new user's data, constrained maximum likelihood regression, or CMLLR, was 
+								used to adapt user data and improve accuracy. Alongside this, I began working on 
+								an algorithm from which user characteristics could be encoded based on my previous work 
+								in recognizing important features for distinguishing commonly confused words in 
+								sign language. This user encoding will be used for further improving model performance 
+								on a new user's data.
 							</p>  
 						</li>
 					</div>
