@@ -79,10 +79,24 @@ export default function Portfolio() {
 
 					<div className={proj ? "show" : "hide"}>
 						<li class="col-sm" id="date">
-							<h3>EEG-controlled Robotic Hand</h3>
+							<h3>Glove-Controlled Robotic Hand</h3>
 							<p>
-								TODO
-							</p>    
+								Mar 2021 - Apr 2021
+								<br></br><br></br>
+								I 3D-printed a robotic hand, as well as a forearm that functions as a motor-encasing. We utilized resistors 
+								that varied based on flexion, or flex sensors, in order to determine how much to move Servo motors corresponding 
+								to each of the fingers/wrist. Control programs and bluetooth communication software were written to ensure 
+								accurate remote functionality of the robotic hand from the glove. Motor control using EEG sensors was attempted
+								in coordination with Georgia Tech's BrainLab, but we were unsuccessful.
+							</p>
+							<center>
+								<video width="320" height="240" controls>
+									<source src="/assets/demo.mp4" type="video/mp4"></source>
+										Your browser does not support the video tag.
+								</video>
+								<br></br>
+								<a href="https://github.com/ishanchadha01/BCI-robotic-arm">Link to Github</a>
+							</center>
 						</li>
 					</div>
 
