@@ -1,7 +1,7 @@
 {
   "name": "website",
   "version": "0.1.0",
-  "homepage": "http://ishanchadha.me",
+  "homepage": "https://ishanchadha01.github.io/blog",
   "private": true,
   "dependencies": {
     "@react-query-firebase/firestore": "^0.4.2",

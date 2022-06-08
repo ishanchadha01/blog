@@ -7,12 +7,12 @@ import Browse from "./pages/browse/Browse";
 import Postpage from "./pages/postpage/Postpage"
 import Contact from "./pages/contact/Contact";
 import Category from "./pages/category/Category"
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className='App'>
-      <HashRouter>
+      <BrowserRouter>
         <Topbar/>
         <Routes>
           <Route exact path="/" element={<Home />}/>
@@ -22,7 +22,7 @@ function App() {
           <Route path="/post:postId" element={<Postpage/>}/>
           <Route path="/contact" element={<Contact/>}/>
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </div>
   );
 }
