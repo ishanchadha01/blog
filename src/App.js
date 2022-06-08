@@ -12,7 +12,7 @@ import { HashRouter, BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className='App'>
-      <BrowserRouter>
+      <HashRouter>
         <Topbar/>
         <Routes>
           <Route exact path="/" element={<Home />}/>
@@ -22,7 +22,7 @@ function App() {
           <Route path="/post:postId" element={<Postpage/>}/>
           <Route path="/contact" element={<Contact/>}/>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
