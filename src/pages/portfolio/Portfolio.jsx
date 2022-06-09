@@ -46,7 +46,7 @@ export default function Portfolio() {
 	      <h1>Portfolio</h1>
 
 				<div id="btnContainer">
-					<button class="btn" onClick={() => setFilter("all")}>Show all</button>
+					<button class="btn" onClick={() => setFilter("all")}>All</button>
 					<button class="btn" onClick={() => setFilter("proj")}> Projects</button>
 					<button class="btn" onClick={() => setFilter("exp")}> Experience</button>
 					<button class="btn" onClick={() => setFilter("research")}> Research</button>

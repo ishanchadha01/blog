@@ -40,11 +40,14 @@
 .topListItem {
     font-size: 10%;
     cursor: pointer;
-    padding-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 20%;
 }
 
 .topList p {
-    font-size: small;
+    font-size: clamp(4px, 1vw, 36px);
     font-weight: 100;
 }
   

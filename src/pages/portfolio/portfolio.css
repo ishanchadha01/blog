@@ -10,32 +10,39 @@
   padding-bottom: 2%;
   padding-left: 4%;
   padding-right: 4%;
-  /* background: #505050; */
   font-family: "Saira", sans-serif;
   letter-spacing: 1px;
   font-weight: 100;
   font-size: 1em;
 }
 
+h3 {
+  font-size: clamp(12px, 2vw, 24px);
+}
+
+p {
+  font-size: clamp(6px, 2vw, 16px);
+}
+
 .timeline a:link {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .timeline a:visited {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .timeline a:hover {
   text-decoration: none;
-  color: white;
-  background-color: indigo;
+  color: black;
+  background-color: green;
 }
 
 .timeline a:active {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .hide {
@@ -57,25 +64,35 @@
   border-radius: 10%;
   letter-spacing: 1px;
   padding: 1%;
-  max-width: 8%;
+  min-width: 5%;
   background-color: #4caf50;
   color: white;
   font-family: "Saira", sans-serif;
   font-weight: 100;
-  font-size: clamp(6px, 2vw, 12px);
+  font-size: clamp(3px, 2vw, 12px);
+  margin-right: 1%;
+  margin-left: 1%;
 }
 
 .btn:hover {
-  background-color: white;
+  background-color: green;
+  cursor: pointer;
 }
 
 img {
   max-width: 100%;
+  height: 100%;
   max-height: 300px;
   object-fit: cover;
 }
 
 figure :hover {
   border-style: solid;
-  border-color: white;
+  border-color: green;
+}
+
+video, iframe {
+  max-width: 100%;
+  height: 100%;
+  max-height: 300px;
 }
