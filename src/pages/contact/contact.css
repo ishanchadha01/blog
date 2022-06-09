@@ -1,5 +1,104 @@
-.body {
-  height: 100%;
-  width: 100%;
-  background-color: #3a3b3c;
+h4 {
+    display: inline-block;
+    border-bottom: solid #11ABB0;
+    text-align: left;
+    text-transform: uppercase;
+    color: black;
+    font-size: clamp(24px, 2vw, 30px);
+}
+
+#form {
+    width: 100%;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: center;
+}
+
+#form > div {
+    position: relative;
+}
+
+.firstname, .lastname, .email, .tel, .subject, .msg {
+    width: 45%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.btn-div {
+	min-width: 30%;
+  max-width: 50%;
+  padding: 0;
+}
+
+#contact input, textarea {
+    text-align: left;
+    background: transparent !important;
+    border-width: 0 0 1px 0 !important;
+    border-color: #DDD;
+    display: block;
+    width: 100%;
+    padding: 0 12px 6px 0;
+    font-size: 14px;
+    color: #F3F3F3;
+    margin-top: 20px !important;
+    height: 35px;
+    font-family: "Raleway", sans-serif !important;
+}
+
+input:focus, #contact textarea:focus{
+    outline: none;
+}
+
+input:focus ~ .focus-border, textarea:focus ~ .focus-border{
+    width: 100%;
+}
+
+textarea{
+    resize: vertical;
+    overflow-y: auto;
+    min-height: 100px;
+    max-height: 200px;
+}
+
+.btn-send{
+    width: 50%;
+    cursor: pointer;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-send:hover, #contact .btn-send:focus{
+    color: white;
+    background:green;
+}
+
+
+.label{
+    -webkit-transition: .4s ease all;
+    transition: .4s ease all;
+    position: absolute;
+    top: 25px !important;
+    color: #AAA;
+    text-align: left;
+    font-size: 16px;
+    display: block;
+    cursor: text;
+    font-family: "Raleway", sans-serif;
+}
+
+input:focus ~ .label, textarea:focus ~ .label[for=message], input.has-value ~ .label, textarea.has-value ~ .label[for=message]{
+    font-size: 12px !important;
+    top: 0px !important;
+    color: #11ABB0 !important;
 }

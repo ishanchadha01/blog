@@ -5,6 +5,7 @@ export default function Browse() {
   console.log(location);
   return (
     <>
+    <h1>Coming soon!</h1>
     </>
   );
 }

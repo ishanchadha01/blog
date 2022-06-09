@@ -16,6 +16,10 @@
   font-size: 1em;
 }
 
+h1 {
+  font-size: clamp(24px, 4vw, 36px);
+}
+
 h3 {
   font-size: clamp(12px, 2vw, 24px);
 }
