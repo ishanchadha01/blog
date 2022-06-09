@@ -1,16 +1,16 @@
 .timeline li {
   list-style: none;
   text-align: left;
-  color: white;
-  border-top-color: blue;
-  border-top-style: solid;
+  color: black;
+  border-left-color: #4caf50;
+  border-left-style: solid;
   margin-left: 25%;
   margin-right: 25%;
   padding-top: 2%;
   padding-bottom: 2%;
   padding-left: 4%;
   padding-right: 4%;
-  background: #505050;
+  /* background: #505050; */
   font-family: "Saira", sans-serif;
   letter-spacing: 1px;
   font-weight: 100;
@@ -49,19 +49,20 @@
 }
 
 .btnContainer {
-
   margin-left: 30%;
   margin-right: 30%;
 }
 
 .btn {
+  border-radius: 10%;
+  letter-spacing: 1px;
   padding: 1%;
-  background-color: #3a3b4c;
+  max-width: 8%;
+  background-color: #4caf50;
   color: white;
   font-family: "Saira", sans-serif;
-  letter-spacing: 1px;
   font-weight: 100;
-  font-size: 1em;
+  font-size: clamp(6px, 2vw, 12px);
 }
 
 .btn:hover {

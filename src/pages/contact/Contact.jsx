@@ -5,6 +5,9 @@ export default function Contact() {
   console.log(location);
   return (
     <>
+      <div className="body">
+        <p>hello</p>
+      </div>
     </>
   );
 }
