@@ -5,21 +5,33 @@
     position: sticky;
     top: 0;
     display: flex;
-    justify-content: left;
-    font-family: "georgia", serif;
+    justify-content: center;
+    font-family: "Verdana";
     font-weight: bolder;
     background-color: #7c5295;
+    clear: left;
+    text-align: center;
 }
   
 .topList {
-    display: flex;
+    padding: 0;
+    margin: 0;
     margin: .1%;
     list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    float: left;
+    text-align: center;
 }
 
 .top a:link {
     text-decoration: none;
     color: white;
+    text-align: center;
+    display: block;
 }
 
 .top a:visited {
@@ -43,11 +55,12 @@
     margin-top: 5%;
     margin-bottom: 5%;
     margin-left: 5%;
-    margin-right: 20%;
+    margin-right: 5%;
+    text-align: center;
 }
 
 .topList p {
-    font-size: clamp(4px, 1vw, 36px);
+    font-size: clamp(12px, 1vw, 24px);
     font-weight: 100;
 }
   
