@@ -1,6 +1,6 @@
 .intro img {
   padding: 2%;
-  max-width: 20%;
+  max-width: 30%;
   width: auto;
   display: flex;
   justify-content: center;
@@ -10,7 +10,7 @@
 .intro p {
   color: white;
   text-align: left;
-  font-size: clamp(6px, 1vw, 18px);
+  font-size: clamp(10px, 1.5vw, 18px);
 }
 
 .intro h1 {
