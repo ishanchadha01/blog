@@ -31,12 +31,12 @@ export default function Postpage(props) {
     return (
       <>
         <div className="title">{postData.title}</div>
-        <div>
-          {Object.entries(postData.content).map(([field, value]) => {
-            if (field.includes("image")) {
-              return <img key={value} src={"../../assets" + value}></img>;
-            } else if (field.includes("text")) {
-              return <p key={value}>{value}</p>
+        <div className="postbody">
+          {Object.entries(postData.content.order).map(([key, val]) => {
+            if (val.includes("image")) {
+              return <img key={postData.content.val} src={"../../assets" + postData.content[val]}></img>;
+            } else if (val.includes("text")) {
+              return <p key={postData.content.val}>{postData.content[val]}</p>
             }
           })}
         </div>
