@@ -65,13 +65,13 @@ p {
 }
 
 .btn {
-  border-radius: 10%;
+  /* border-radius: 50%; */
   letter-spacing: 1px;
   padding: 1%;
   min-width: 5%;
-  background-color: #4caf50;
+  background-color: rgb(72, 71, 71);
   color: white;
-  font-family: "Saira", sans-serif;
+  /* font-family: "Saira", sans-serif; */
   font-weight: 100;
   font-size: clamp(3px, 2vw, 12px);
   margin-right: 1%;

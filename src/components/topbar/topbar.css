@@ -58,7 +58,7 @@ li {
 }
 
 .topList p {
-    font-size: clamp(12px, 1vw, 24px);
+    font-size: clamp(12px, 1vw, 16px);
     font-weight: 100;
 }
   
