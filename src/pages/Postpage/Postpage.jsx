@@ -35,7 +35,7 @@ export default function Postpage(props) {
         <div className="postbody">
           {Object.entries(postData.content.order).map(([key, val]) => {
             if (val.includes("image")) {
-              return <img key={postData.content.val} src={"../../assets/" + postData.content[val]}></img>;
+              return <img key={postData.content.val} src={"/assets/" + postData.content[val]}></img>;
             } else if (val.includes("text")) {
               return <p key={postData.content.val}>{postData.content[val]}</p>
             }
