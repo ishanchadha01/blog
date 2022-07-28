@@ -27,7 +27,7 @@ export default function Home() {
       <br></br>
       <br></br>
 
-      <div className="updates">
+      <div className="updates col-sm-3">
         <h2>Updates</h2>
         <ul>
           <li>Starting my Master's in Computer Science with a Specialization in 
@@ -41,8 +41,6 @@ export default function Home() {
         </ul>
       </div>
 
-      <br></br>
-      <br></br>
 
       <div className="posts col-sm-3">
         <Posts />
