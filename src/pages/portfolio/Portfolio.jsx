@@ -54,42 +54,7 @@ export default function Portfolio() {
 				</div>
 			  
 				<ul class="timeline">
-
-					<div className={edu ? "show" : "hide"}>
-						<li>
-							<h3>M.S. at Georgia Institute of Technology</h3>
-							<p>
-								Aug 2021 - May 2023
-								<br></br><br></br>
-								<i>Coursework:</i> Computer Vision, Robot Planning
-								<br></br><br></br>
-								<i>GPA: </i> 4.0
-							</p>    
-						</li>
-					</div>
-
-					<div className={exp ? "show" : "hide"}>
-						<li>
-							<h3>Robotics Engineering Intern at Relativity Space</h3>
-							<p>
-								Aug 2022 - Dec 2022
-								<br></br><br></br>
-								Coming Soon!
-							</p>    
-						</li>
-					</div>
-
-					<div className={exp ? "show" : "hide"}>
-						<li>
-							<h3>Software Engineering/Data Science Intern at Capital One</h3>
-							<p>
-								Jun 2022 - Aug 2022
-								<br></br><br></br>
-								Coming Soon!
-							</p>    
-						</li>
-					</div>
-
+				
 					<div className={proj ? "show" : "hide"}>
 						<li>
 							<h3>Field-Aided RRT*</h3>

@@ -23,6 +23,27 @@ export default function Home() {
           </p>
         </div>
       </div>
+
+      <br></br>
+      <br></br>
+
+      <div className="updates">
+        <h2>Updates</h2>
+        <ul>
+          <li>Starting my Master's in Computer Science with a Specialization in 
+          Robotics and Perception in January 2023</li>
+          <br></br>
+          <li>Currently a summer intern at Capital One working on data processing and 
+          analysis for the travel card</li>
+          <br></br>
+          <li>Accepted offer as Robotics intern at Relativity Space for 
+          Fall 2022</li>
+        </ul>
+      </div>
+
+      <br></br>
+      <br></br>
+
       <div className="posts col-sm-3">
         <Posts />
       </div>

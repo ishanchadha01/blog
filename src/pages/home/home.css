@@ -1,3 +1,12 @@
+.updates {
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.updates li {
+  text-align: left;
+}
+
 .home {
   width: 100%;
   background-size: cover;
@@ -16,6 +25,7 @@
   color: white;
   text-align: left;
   font-size: clamp(10px, 1.5vw, 18px);
+  align-items: flex-end;
 }
 
 .intro h1 {
