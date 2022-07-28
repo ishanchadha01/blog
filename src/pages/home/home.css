@@ -25,7 +25,6 @@
   color: white;
   text-align: left;
   font-size: clamp(10px, 1.5vw, 18px);
-  align-items: flex-end;
 }
 
 .intro h1 {
@@ -45,6 +44,7 @@
 }
 
 .aboutme {
+  align-items: left;
   max-width: 30%;
 }
 
