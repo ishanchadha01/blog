@@ -82,7 +82,7 @@ class ArticlePublisher {
    * # Example
    *
    * ```js
-   * const text = '---\nid: 0\ntitle: "Lorem ipsum"\n---\nSed sit amet arcu a diam tincidunt porta';
+   * const text = '---\nid: 0\ntitle: "poopoo ipsum"\n---\nSed sit amet arcu a diam tincidunt porta';
    * console.log(extractContent(text)); // 'Sed sit amet arcu a diam tincidunt porta'
    * ```
    *
@@ -117,11 +117,11 @@ class ArticlePublisher {
    * Extracts an article meta information in front matter block from text.
    *
    * ```js
-   * const text = '---\nid: 0\ntitle: "Lorem ipsum"\n---\nSed sit amet arcu a diam tincidunt porta';
+   * const text = '---\nid: 0\ntitle: "poopoo ipsum"\n---\nSed sit amet arcu a diam tincidunt porta';
    * const metaInfo = extractMetaInfo(text);
    *
    * console.log(metaInfo.getId()); // 0
-   * console.log(metaInfo.getTitle()); // 'Lorem ipsum'
+   * console.log(metaInfo.getTitle()); // 'poopoo ipsum'
    * ```
    *
    * @param text - Any text containing front matter block.

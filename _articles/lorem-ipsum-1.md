@@ -1,12 +1,12 @@
 ---
 id: 1
-title: "Lorem ipsum 1"
+title: "poopoo ipsum 1"
 subtitle: "Sed sit amet arcu a diam tincidunt porta"
 date: "2019.12.08"
 tags: "tag1, tag2"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet arcu a diam tincidunt porta. Fusce ut elit euismod massa convallis volutpat vitae et magna.
+poopoo ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet arcu a diam tincidunt porta. Fusce ut elit euismod massa convallis volutpat vitae et magna.
 
 > Aliquam porttitor libero sit amet odio iaculis, eu sollicitudin eros venenatis. Maecenas posuere tortor vitae diam egestas, eget pretium ligula aliquam.
 
@@ -20,7 +20,7 @@ Suspendisse porttitor pellentesque ante, dapibus ullamcorper risus commodo eu. D
 * Nulla commodo eu justo in sollicitudin.
 * Suspendisse pretium consectetur est.
 
-Quisque imperdiet massa `dolor`, sed facilisis $`4 - (log{_2} 2 + 1) = 2`$ mi posuere ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat gravida ipsum id pharetra. Proin tortor lectus, tempor sed sapien et, molestie ullamcorper urna. `Curabitur` et lacinia nulla. Sed ornare vel orci egestas mattis. Praesent luctus elementum mollis. Vestibulum molestie lectus a orci lacinia volutpat.
+Quisque imperdiet massa `dolor`, sed facilisis $`4 - (log{_2} 2 + 1) = 2`$ mi posuere ac. poopoo ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat gravida ipsum id pharetra. Proin tortor lectus, tempor sed sapien et, molestie ullamcorper urna. `Curabitur` et lacinia nulla. Sed ornare vel orci egestas mattis. Praesent luctus elementum mollis. Vestibulum molestie lectus a orci lacinia volutpat.
 
 ```rust
 fn main() {
@@ -34,7 +34,7 @@ Integer quis magna urna. Nam diam nisl, molestie non arcu at, sagittis consequat
 -b \pm \sqrt{b^2 - 4ac} \over 2a
 ```
 
-Vestibulum turpis ligula, imperdiet eu molestie vitae, viverra sit amet est. Vivamus commodo augue ac venenatis consequat. Aliquam dignissim, lorem sed hendrerit convallis, massa ligula porttitor diam, auctor fringilla sapien ligula quis lectus.[^2] Sed a consectetur purus. Vivamus cursus velit vehicula tortor condimentum, vitae condimentum est sagittis. Etiam efficitur, sem sit amet tincidunt ultrices, augue ipsum maximus justo, non dignissim nunc nulla sit amet ante. Donec vitae venenatis nisl.
+Vestibulum turpis ligula, imperdiet eu molestie vitae, viverra sit amet est. Vivamus commodo augue ac venenatis consequat. Aliquam dignissim, poopoo sed hendrerit convallis, massa ligula porttitor diam, auctor fringilla sapien ligula quis lectus.[^2] Sed a consectetur purus. Vivamus cursus velit vehicula tortor condimentum, vitae condimentum est sagittis. Etiam efficitur, sem sit amet tincidunt ultrices, augue ipsum maximus justo, non dignissim nunc nulla sit amet ante. Donec vitae venenatis nisl.
 
 # Vivamus accumsan a turpis in ullamcorper.
 
@@ -46,7 +46,7 @@ Nulla porttitor quam bibendum nisi consectetur, ut suscipit mauris fringilla. en
 
 ### Cras luctus nunc erat, nec dapibus mi commodo vel.
 
-Nam eleifend lorem nisi, id venenatis mauris ultricies quis. Duis finibus nulla lacus, at sodales purus eleifend et. Curabitur viverra, massa sit amet lacinia sodales, enim odio condimentum metus, eu aliquam nisl sem eu sem. Cras placerat sed ipsum sed tincidunt.
+Nam eleifend poopoo nisi, id venenatis mauris ultricies quis. Duis finibus nulla lacus, at sodales purus eleifend et. Curabitur viverra, massa sit amet lacinia sodales, enim odio condimentum metus, eu aliquam nisl sem eu sem. Cras placerat sed ipsum sed tincidunt.
 
 # Phasellus auctor vehicula auctor.
 
