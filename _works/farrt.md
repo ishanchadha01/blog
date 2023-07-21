@@ -1,5 +1,5 @@
 ---
-title: "Glove-Controlled Robotic Hand"
+title: "Field-Aided RRT*"
 thumbnail: "/images/hand_cover.png"
 ---
 

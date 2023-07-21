@@ -1,5 +1,5 @@
 ---
-title: "Glove-Controlled Robotic Hand"
+title: "Automatic Differentiation"
 thumbnail: "/images/hand_cover.png"
 ---
 

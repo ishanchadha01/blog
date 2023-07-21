@@ -1,9 +1,9 @@
 ---
 id: 0
-title: "poopoo ipsum 0"
-subtitle: "Sed sit amet arcu a diam tincidunt porta"
-date: "2019.12.08"
-tags: "tag1, tag2"
+title: "Auto Differentiation: The Basis for AI"
+subtitle: "Laser DED, Powder Bed Fusion, WAAM, and more!"
+date: "2023.08.01"
+tags: "3d-printing, fabrication"
 ---
 
 poopoo ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet arcu a diam tincidunt porta. Fusce ut elit euismod massa convallis volutpat vitae et magna.
@@ -12,7 +12,7 @@ poopoo ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet arcu a di
 
 Pellentesque eu erat vitae metus dignissim tempus. Duis malesuada magna eu risus fermentum consectetur. Sed in ante consequat urna ultricies dapibus ac non diam.[^1]
 
-![dummy image](/images/800x600.png)
+![dummy image](/images/eeg.png)
 
 Suspendisse porttitor pellentesque ante, dapibus ullamcorper risus commodo eu. Duis sapien mi, mollis vel odio nec, iaculis pharetra nunc. Aliquam quam nisi, cursus `pharetra` feugiat nec, tristique quis libero. Ut blandit sit amet lacus eget elementum. Fusce elit nisi, feugiat ornare commodo at, varius sed augue.
 

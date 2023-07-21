@@ -1,5 +1,5 @@
 ---
-title: "Glove-Controlled Robotic Hand"
+title: "Photometric Reconstruction for Endoscopy"
 thumbnail: "/images/hand_cover.png"
 ---
 

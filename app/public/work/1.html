@@ -1,27 +1,27 @@
-<!doctypehtml>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Glove-Controlled Robotic Hand</title>
+  <meta charset="UTF-8" />
+  <title>Field-Aided RRT*</title>
 
-  <meta name="viewport"content="width=device-width,initial-scale=1">
-  <meta http-equiv="X-UA-Compatible"content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <link rel="shortcut icon"href="../assets/favicon.ico"type="image/x-icon">
-  <link rel="preload"href="../styles/work.css"as="style">
-  <link rel="stylesheet"href="../styles/work.css">
+  <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
+  <link rel="preload" href="../styles/work.css" as="style">
+  <link rel="stylesheet" href="../styles/work.css">
 </head>
 <body>
-  <header id="top-container"role="navigation">
+  <header id="top-container" role="navigation">
     <nav>
-  <a class="logo-link"href="/">
+  <a class="logo-link" href="/">
     <h1>poopoo Ipsum</h1>
     <span>poopoo ipsum</span>
   </a>
   <small>
-    <a id="about"class="info-link"href="/about.html">About</a> /
-    <a id="works"class="info-link"href="/works.html">Works</a> /
-    <a id="articles"class="info-link"href="/articles.html">Articles</a>
+    <a id="about" class="info-link" href="/about.html">About</a> /
+    <a id="works" class="info-link" href="/works.html">Works</a> /
+    <a id="articles" class="info-link" href="/articles.html">Articles</a>
   </small>
 </nav>
 
@@ -29,16 +29,16 @@
   <main id="main-container">
     <article id="work-container">
       <h1 id="work-title">
-        Glove-Controlled Robotic Hand
+        Field-Aided RRT*
       </h1>
       <h2 id="work-subtitle">
         
       </h2>
       <article id="work-content-container">
-        <p><img src="/images/hand_cover.png"alt="robotic hand image"></p>
+        <p><img src="/images/hand_cover.png" alt="robotic hand image"></p>
 <p>For my prototyping class, I 3D-printed a robotic hand, as well as a forearm that functions as a motor-encasing. I utilized resistors that varied based on flexion, or flex sensors, in order to determine how much to move Servo motors corresponding to each of the fingers/wrist. Control programs and bluetooth communication software were written to ensure accurate remote functionality of the robotic hand from the glove. Motor control using EEG sensors was attempted in coordination with Georgia Tech’s BrainLab, but we the EEG signals were too noisy to conduct meaningful analysis.</p>
 <h1>BCI-robotic-arm</h1>
-<p><img src="/images/demo.mov"alt="robotic hand video"></p>
+<p><img src="/images/demo.mp4" alt="robotic hand video"></p>
 <h2>Background</h2>
 <p>Robots are becoming increasingly ubiquitous in our society, ranging from personal use applications like skateboards to industrial-scale warehouse machines. When researching various types of robots, we encountered two modes of thinking relating to mechanical design: designs that automate tasks usually performed by humans and designs that aid humans with tasks in their daily life.</p>
 <p>At first, we thought of tackling the former train of thought, looking to design a robotic arm that could be found in a warehouse to perform tasks autonomously. However, whether we follow the former or the latter train of thought, robots are designed to either perform tasks that humans previously performed or aid humans with tasks they currently perform, so creating a robot that mirrors human capabilities makes intuitive sense. Thus, we decided to create a robotic hand controlled by a human hand. This could be applied to both performing tasks to help humans or training completely autonomous robots to perform tasks similar to humans.</p>
@@ -46,7 +46,7 @@
 In addition to using flex sensors, Brain-computer interfaces (BCI) is an up-and-coming technology used to read signals from the brain to perform specific tasks. BCIs are a technology yet to be widely employed by ordinary people due to noisy readings given by brain wave (EEG) sensors and the expense of setting up readings. We thought to attempt to incorporate EEG readings from a BCI sensor so that we could show that a robotic hand could not only be controlled by a human hand but also by brain waves, taking a step further into the future of robotic control. SSVEP is a method used in the BCI community to detect differences in visual patterns. Electrodes placed over someone’s occipital lobe provide different readings when the user observes different frequencies of flashing light, which can be used to provide different digital control signals.</p>
 <h2>Design</h2>
 <p>The hardware can be split into three components: the robotic hand, the glove controlling the hand, and hardware that was not included due to its experimental nature. The software was split between the two Arduino modules.</p>
-<p><img src="/images/full_hand.png"alt="full hand image"></p>
+<p><img src="/images/full_hand.png" alt="full hand image"></p>
 <h3>Robotic Hand</h3>
 <p>The robotic hand was decomposed into two primary parts: the hand and the forearm. These parts were 3D printed using Ultimaker 3D printers around Georgia Tech’s campus.
 The forearm was used as a motor casing, housing all five finger control motors and having an open back where the wires could easily be manipulated. The shaft of each of the five motors protruded out of the front of the motor casing, allowing the motors to be wired to the fingers. A sixth motor connected the hand and the forearm, serving as a wrist joint for rotational motion in the horizontal plane. The entire hand was placed on this wrist joint, rotating up to 45 degrees to demonstrate wrist flexion.</p>
@@ -64,8 +64,8 @@ Alongside the five finger measurements, a gyroscope measurement was also sent to
 <p>Other minor shortcomings in hardware occurred, as well. An external power supply was supposed to be connected to the glove, but the linear regulator used to convert 9V to 5V did not work in the live demonstration, so the glove was just powered by a laptop. The thumb was not connected via cable to its respective motor housed in the forearm motor casing due to the thumb requiring a horizontal range of motion and the attachment being utilized for movement breaking preceding the live demonstration. The flex sensors on the fingers are also loose due to the glue and tape wearing out. A more permanent solution would be to stitch a pocket in the glove and place them there.</p>
 <p>In the future, we plan to attend more BrainLab meetings and experiment with different ways to control a robotic hand and make the hand more functional, and fix the shortcomings already addressed. Then, we aim to target one specific application of our work, such as prosthetic design, and tailor our project to that application.</p>
 
-      
+      </section>
     </article>
-  </article></main>
-
-
+  </main>
+</body>
+</html>
